@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Ithaca, NY"
   date_start = "2019-06-21"
-  date_end = ""
+  date_end = "2019-10-14"
   description = """Advised by Professor Thorsten Joachims"""
 
 [[experience]]

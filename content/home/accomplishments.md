@@ -21,16 +21,23 @@ date_format = "Jan 2006"
 [[item]]
   organization = "China Computer Federation"
   organization_url = "https://www.ccf.org.cn"
-  title = "Outstanding University Student Award"
+  title = "Elite Collegiate Award"
   url = ""
-  date_start = "2019-08-01"
+  date_start = "2019-10-17"
   date_end = ""
-  description = "100 winners nationwide, only 4 in Tsinghua University"
+  description = "73 winners nationwide, only 4 in Tsinghua University"
 
 [[item]]
   organization = "Tsinghua University"
-  title = "Huawei Scholarship"
-  date_start = "2018-09-01"
+  title = "Award for Comprehensive Quality"
+  date_start = "2019-09-30"
+  date_end = ""
+  description = "top 5%, awarded to those with outstanding comprehensive quality"
+
+[[item]]
+  organization = "Tsinghua University"
+  title = "Award for Comprehensive Quality"
+  date_start = "2018-09-30"
   date_end = ""
   description = "top 5%, awarded to those with outstanding comprehensive quality"
 
