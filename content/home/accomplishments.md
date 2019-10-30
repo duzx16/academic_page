@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Recent News"
+title = "Honors"
 subtitle = ""
 
 # Date format
@@ -19,6 +19,15 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "Tsinghua University"
+  organization_url = "https://www.ccf.org.cn"
+  title = "The Cai Xiong Scholarship"
+  url = ""
+  date_start = "2019-10-27"
+  date_end = ""
+  description = "Top 1%, awarded for outstanding research experience"
+
+[[item]]
   organization = "China Computer Federation"
   organization_url = "https://www.ccf.org.cn"
   title = "Elite Collegiate Award"
@@ -29,16 +38,16 @@ date_format = "Jan 2006"
 
 [[item]]
   organization = "Tsinghua University"
-  title = "Award for Comprehensive Quality"
+  title = "The Scholarship of Comprehensive Excellence"
   date_start = "2019-09-30"
   date_end = ""
-  description = "top 5%, awarded to those with outstanding comprehensive quality"
+  description = "top 5%, awarded for outstanding academic performance and research experience"
 
 [[item]]
   organization = "Tsinghua University"
-  title = "Award for Comprehensive Quality"
+  title = "The Scholarship of Comprehensive Excellence"
   date_start = "2018-09-30"
   date_end = ""
-  description = "top 5%, awarded to those with outstanding comprehensive quality"
+  description = "top 5%, awarded for outstanding academic performance and research experience"
 
 +++

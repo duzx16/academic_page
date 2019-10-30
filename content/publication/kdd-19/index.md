@@ -1,6 +1,6 @@
 ---
 title: "Sequential Scenario-Specific Meta Learner for Online Recommendation"
-date: 2019-01-01
+date: 2019-07-20
 publishDate: 2019-07-20T13:59:10.997616Z
 authors: ["**Zhengxiao Du**", "Xiaowei Wang", "Hongxia Yang", "Jingren Zhou", "Jie Tang"]
 publication_types: ["2"]

@@ -27,7 +27,7 @@ interests:
 
 education:
   courses:
-  - course: B.S. in Computer Science
+  - course: B.E. in Computer Science
     institution: Tsinghua University
     year: 2016 - Present
 
@@ -66,6 +66,6 @@ user_groups:
 
 I am an undergraduate student in the Department of Computer Science and Technology at Tsinghua University. I am also a member of the Knowledge Engineering Group, advised by Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang).
 
-My research interest lies in the application of machine learning algorithms to real-world systems, including recommender systems [[ECML/PKDD'18]](/publication/pkdd-18/) [[KDD'19]](/publication/kdd-19), search engines and knowledge graphs [[arXiv]](/publication/cogkr-19). Generally, I am also interested in the algorithms for machine learning and reinforcement learning.
+My research interest lies in the application of machine learning algorithms to real-world systems, including recommender systems [[ECML/PKDD'18]](/publication/pkdd-18/) [[KDD'19]](/publication/kdd-19)[[TKDE]](/publication/tkde-19), search engines and knowledge graphs [[arXiv]](/publication/cogkr-19). Generally, I am also interested in the algorithms for machine learning and reinforcement learning.
 
 In my spare time, I like to read science fiction novels and history books, especially the history of Ancient Rome and Three Kingdoms Period in China.
