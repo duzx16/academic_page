@@ -3,11 +3,11 @@
 
 title: "POLAR++: Active One-shot Personalized Article Recommendation"
 authors: ["**Zhengxiao Du**", "Jie Tang", "Yuhui Ding"]
-date: 2019-10-30T11:19:52+08:00
+date: 2019-09-30T11:19:52+08:00
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2019-10-30T11:19:52+08:00
+publishDate: 2019-09-30T11:19:52+08:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
