@@ -17,10 +17,18 @@ date_format = "Jan 2006"
 #   `title`, `organization` and `date_start` are the required parameters.
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+[[item]]
+  organization = "Tsinghua University"
+  organization_url = "https://www.tsinghua.edu.cn"
+  title = "Tsinghua Excellent (Bachelor) Graduate"
+  url = ""
+  date_start = "2020-06-22"
+  date_end = ""
+  description = "Top 2% of all the graduates"
 
 [[item]]
   organization = "Tsinghua University"
-  organization_url = "https://www.ccf.org.cn"
+  organization_url = "https://www.tsinghua.edu.cn"
   title = "The Cai Xiong Scholarship"
   url = ""
   date_start = "2019-10-27"
@@ -35,19 +43,5 @@ date_format = "Jan 2006"
   date_start = "2019-10-17"
   date_end = ""
   description = "73 winners nationwide, only 4 in Tsinghua University"
-
-[[item]]
-  organization = "Tsinghua University"
-  title = "The Scholarship of Comprehensive Excellence"
-  date_start = "2019-09-30"
-  date_end = ""
-  description = "top 5%, awarded for outstanding academic performance and research experience"
-
-[[item]]
-  organization = "Tsinghua University"
-  title = "The Scholarship of Comprehensive Excellence"
-  date_start = "2018-09-30"
-  date_end = ""
-  description = "top 5%, awarded for outstanding academic performance and research experience"
 
 +++
