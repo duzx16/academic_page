@@ -3,9 +3,9 @@
 
 title: "读书感想：《哈利波特与理性之道》"
 subtitle: ""
-summary: "读书感想"
+summary: 读书感想
 authors: 
-  - admin
+- admin
 tags: []
 categories: [阅读]
 date: 2020-02-22T21:26:09+08:00
