@@ -1,14 +1,18 @@
 ---
-title: "Fair Learning-to-Rank from Implicit Feedback"
-date: 2019-11-19
-publishDate: 2019-11-19T02:45:42.998650Z
-authors: ["Himank Yadav*", "**Zhengxiao Du***", "Thorsten Joachims"]
+title: "Policy-Gradient Training of Fair and Unbiased Ranking Functions"
+date: 2021-07-11
+publishDate: 2021-07-11
+authors: ["Himank Yadav*", "Zhengxiao Du*", "Thorsten Joachims"]
 publication_types: ["3"]
-abstract: "Addressing unfairness in rankings has become an increasingly important problem due to the growing influence of rankings in critical decision making, yet existing learning-to-rank algorithms suffer from multiple drawbacks when learning fair ranking policies from implicit feedback. Some algorithms suffer from extrinsic reasons of unfairness due to inherent selection biases in implicit feedback leading to rich-get-richer dynamics. While those that address the biased nature of implicit feedback suffer from intrinsic reasons of unfairness due to the lack of explicit control over the allocation of exposure based on merit (i.e, relevance). In both cases, the learned ranking policy can be unfair and lead to suboptimal results. To this end, we propose a novel learning-to-rank framework, FULTR, that is the first to address both intrinsic and extrinsic reasons of unfairness when learning ranking policies from logged implicit feedback. Considering the needs of various applications, we define a class of amortized fairness of exposure constraints with respect to items based on their merit, and propose corresponding counterfactual estimators of disparity (aka unfairness) and utility that are also robust to click noise. Furthermore, we provide an efficient algorithm that optimizes both utility and fairness via a policy-gradient approach. To show that our proposed algorithm learns accurate and fair ranking policies from biased and noisy feedback, we provide empirical results beyond the theoretical justification of the framework.
+abstract: "While implicit feedback (e.g., clicks, dwell times, etc.) is an abundant and attractive source of data for learning to rank, it can produce unfair ranking policies for both exogenous and endogenous reasons. Exogenous reasons typically manifest themselves as biases in the training data, which then get reflected in the learned ranking policy and often lead to rich-get-richer dynamics. Moreover, even after the correction of such biases, reasons endogenous to the design of the learning algorithm can still lead to ranking policies that do not allocate exposure among items in a fair way. To address both exogenous and endogenous sources of unfairness, we present the first learning-to-rank approach that addresses both presentation bias and merit-based fairness of exposure simultaneously. Specifically, we define a class of amortized fairness-of-exposure constraints that can be chosen based on the needs of an application, and we show how these fairness criteria can be enforced despite the selection biases in implicit feedback data. The key result is an efficient and flexible policy-gradient algorithm, called FULTR, which is the first to enable the use of counterfactual estimators for both utility estimation and fairness constraints. Beyond the theoretical justification of the framework, we show empirically that the proposed algorithm can learn accurate and fair ranking policies from biased and noisy feedback.
 "
 featured: false
-publication: "*CoRR*, under review as a conference submission"
+publication: "44th International **ACM SIGIR** Conference on Research and Development in Information RetrievalJuly 2021, **SIGIR 2021**"
 links:
+  - icon_pack: fab
+    icon: github
+    name: Code
+    url: 'https://github.com/him229/fultr'
   - icon_pack: ai
     icon: arxiv
     name: Preprint
