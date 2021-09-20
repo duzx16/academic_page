@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "POLAR++: Active One-shot Personalized Article Recommendation"
-authors: ["Zhengxiao Du", "Jie Tang", "Yuhui Ding"]
+authors: [admin, "Jie Tang", "Yuhui Ding"]
 date: 2019-09-30T11:19:52+08:00
 doi: ""
 

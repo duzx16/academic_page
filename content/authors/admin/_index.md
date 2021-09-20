@@ -1,21 +1,21 @@
 ---
 # Display name
-name: Zhengxiao Du
+title: Zhengxiao Du
 
 # Username (this should match the folder name)
-authors:
-- admin
+# authors:
+# - admin
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Undergraduate Student
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:
 - name: Tsinghua University
-  url: ""
+  url: "https://www.tsinghua.edu.cn"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include machine learning and data mining.
@@ -60,6 +60,10 @@ social:
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "zx-du20 [at] mails [dot] tsinghua.edu.cn"
   
+
+# Highlight the author in author lists? (true/false)
+highlight_name: true
+
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
@@ -69,6 +73,6 @@ user_groups:
 
 I am a PhD student in the Department of Computer Science and Technology at Tsinghua University. I am also a member of the Knowledge Engineering Group, advised by Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang).
 
-My research interest lies in the application of machine learning algorithms to real-world systems, including recommender systems [[ECML/PKDD'18]](/publication/pkdd-18) [[KDD'19]](/publication/kdd-19)[[TKDE]](/publication/tkde-19), search engines[[arXiv]](/publication/fair-19) and knowledge graphs [[arXiv]](/publication/cogkr-19). Generally, I am also interested in the algorithms for machine learning and reinforcement learning.
+My research interest lies in the application of machine learning algorithms to real-world systems, including information retrieval [[ECML/PKDD'18](/publication/pkdd-18),[KDD'19](/publication/kdd-19),[TKDE](/publication/tkde-19),[SIGIR'19](/publication/fair-19)], knowledge graphs [[TKDE]](/publication/cogkr-19), and pretrained language models[[arxiv](/publication/glm-21),[arxiv](/publication/p-tuning)]. Generally, I am also interested in the algorithms for machine learning and reinforcement learning.
 
 In my spare time, I like to read science fiction novels and history books, especially the history of Ancient Rome and Three Kingdoms Period in China.

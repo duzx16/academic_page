@@ -2,7 +2,7 @@
 title: "POLAR: Attention-Based CNN for One-Shot Personalized Article Recommendation"
 date: 2018-09-10
 publishDate: 2019-07-20T13:59:10.995108Z
-authors: ["Zhengxiao Du", "Jie Tang", "Yuhui Ding"]
+authors: [admin, "Jie Tang", "Yuhui Ding"]
 publication_types: ["1"]
 featured: true
 publication: "Machine Learning and Knowledge Discovery in Databases - European Conference, **ECML/PKDD 2018**"
