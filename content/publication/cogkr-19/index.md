@@ -22,5 +22,9 @@ links:
     icon: arxiv
     name: Preprint
     url: 'https://arxiv.org/abs/1906.05489'
+  - icon_pack: ai
+    icon: ieee
+    name: Paper
+    url: 'https://www.computer.org/csdl/journal/tk/5555/01/09512424/1w0wzCuvnA4'
 ---
 

@@ -23,5 +23,9 @@ links:
     icon: arxiv
     name: Preprint
     url: 'https://arxiv.org/abs/1911.08054'
+  - icon_pack: ai
+    icon: acmdl
+    name: Paper
+    url: 'https://dl.acm.org/doi/abs/10.1145/3404835.3462953'
 ---
 
