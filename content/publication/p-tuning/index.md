@@ -1,7 +1,7 @@
 ---
 title: "GPT Understands, Too"
-date: 2021-10-15
-publishDate: 2019-10-15T13:59:10.998650Z
+date: 2021-03-18
+publishDate: 2021-03-18
 authors:
 - Xiao Liu
 - Yanan Zheng

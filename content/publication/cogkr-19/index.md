@@ -1,7 +1,7 @@
 ---
 title: "CogKR: Cognitive Graph for Multi-hop Knowledge Reasoning"
-date: 2021-10-15
-publishDate: 2019-10-15T13:59:10.998650Z
+date: 2021-09-01
+publishDate: 2021-09-01
 authors: 
 - admin
 - Chang Zhou
