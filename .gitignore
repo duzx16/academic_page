@@ -1,4 +1,9 @@
-public/
+# IDEs
 .idea/
+
+resources/
+public/
+jsconfig.json
+go.sum
 .DS_Store
 .hugo_build.lock
