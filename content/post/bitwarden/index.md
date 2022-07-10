@@ -1,9 +1,9 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "用vaultwarden搭建自己的密码管理服务"
+title: "用Vaultwarden搭建自己的密码管理服务"
 subtitle: ""
-summary: vaultwarden tutorial
+summary: Vaultwarden tutorial
 authors: 
 - Zhengxiao Du
 tags: []
@@ -36,10 +36,10 @@ projects: []
 ## 为什么选择BitWarden
 密码管理服务的安全性来自于现代加密算法，在无法攻破加密密码的情况下是无法获得加密内容的。但是为了能够在不同的设备上使用保管的密码，我们必须依赖于云端服务。而一旦涉及到云服务，就存在着很大的不确定性，因为我们很难检查服务器上实际运行的代码。这也是我没有选择很热门的1Password的原因。
 
-BitWarden是前后端均开源的密码管理服务器，并且还支持由用户自己搭建后端服务。当然实际中大家使用更多的是[vaultwarden](https://github.com/dani-garcia/vaultwarden)（原名为BitWarden_RS）这个非官方简化版后端实现，因为它占用的资源更少。同时BitWarden的前端也有很好的跨平台支持，对主流的浏览器和操作系统都提供了支持。
+BitWarden是前后端均开源的密码管理服务器，并且还支持由用户自己搭建后端服务。当然实际中大家使用更多的是[Vaultwarden](https://github.com/dani-garcia/vaultwarden)（原名为BitWarden_RS）这个非官方简化版后端实现，因为它占用的资源更少。同时BitWarden的前端也有很好的跨平台支持，对主流的浏览器和操作系统都提供了支持。
 
-## 如何搭建自己的vaultwarden服务
-首先用docker容器运行vaultwarden服务
+## 如何搭建自己的Vaultwarden服务
+首先用docker容器运行Vaultwarden服务
 ```bash
 docker pull vaultwarden/server:latest
 mkdir /vw-data # this is used for permanent data storage
@@ -114,7 +114,7 @@ server {
 }
 ```
 然后就可以在www.example.com中访问自己的BitWarden服务了。在使用各个平台的BitWarden插件和客户端的时候，要在登陆之前先进行设置，将服务地址修改为www.example.com。
-## 更新vaultwarden镜像
+## 更新Vaultwarden镜像
 ```bash
 # Pull the latest version
 docker pull vaultwarden/server:latest
@@ -130,4 +130,6 @@ docker run -d --name vaultwarden \
  -p 10020:80 -p 3012:3012 \
  vaultwarden/server:latest
 ```
-
+## 参考文献
+> 1. Installing Vaultwarden formally bitwarden_rs on Ubuntu 20.04 with Nginx. https://www.llewellynhughes.co.uk/post/installing-vaultwarden
+> 2. Vaultwarden Wiki. https://github.com/dani-garcia/vaultwarden/wiki
