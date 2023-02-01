@@ -3,11 +3,11 @@
 
 title: "POLAR++: Active One-shot Personalized Article Recommendation"
 authors: [admin, "Jie Tang", "Yuhui Ding"]
-date: 2019-09-30T11:19:52+08:00
+date: 2019-11-15
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2019-09-30T11:19:52+08:00
+publishDate: 2019-11-15
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,7 +16,7 @@ publishDate: 2019-09-30T11:19:52+08:00
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "IEEE Transactions on Knowledge and Data Engineering"
+publication: "IEEE Transactions on Knowledge and Data Engineering, **TKDE**"
 
 abstract: "We study the problem of personalized article recommendation, in particular when the user’s preference data is missing or limited, which is knowns as the user cold-start issue in recommender systems. We propose POLAR++, an active recommendation framework that utilizes Bayesian neural networks to capture the uncertainty of user preference, actively selects articles to query the user for feedback, and adaptively learns user preference with one-shot learning. For the article recommendation, we design an attention-based CNN to quantify the similarity between user preference and recommended articles, which signiﬁcantly improves the performance with only a few articles rated by the users. We evaluate the proposed POLAR++ on datasets of different scale and sources. Experimental results demonstrate the effectiveness of the proposed model. We have successfully deployed POLAR++ into AMiner as the recommendation engine for article recommendation, which further conﬁrms the effectiveness of the proposed model."
 
@@ -31,9 +31,9 @@ featured: false
 #   Uncomment and edit lines below to show custom links.
 links:
   - icon_pack: ai
-    icon: arxiv
+    icon: ieee
     name: Paper
-    url: 'https://doi.ieeecomputersociety.org/10.1109/TKDE.2019.2953721'
+    url: 'https://ieeexplore.ieee.org/document/8901999'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
