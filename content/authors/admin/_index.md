@@ -75,4 +75,6 @@ I am a PhD student in the Department of Computer Science and Technology at Tsing
 
 My research interest lies in the application of machine learning algorithms to real-world systems, including information retrieval [[ECML/PKDD'18](/publication/pkdd-18),[KDD'19](/publication/kdd-19),[TKDE](/publication/tkde-19),[SIGIR'19](/publication/fair-19)], knowledge graphs [[TKDE]](/publication/cogkr-19), and pretrained language models[[ACL'21](/publication/glm-21),[ACL'21](/publication/p-tuning-v2)]. Generally, I am also interested in the algorithms for machine learning and reinforcement learning.
 
+I am currently doing an internship at the [ChatGLM](https://chatglm.cn) group of [ZhipuAI](https://www.zhipuai.cn).
+
 In my spare time, I like to read science fiction novels and history books, especially the history of Ancient Rome and Three Kingdoms Period in China.

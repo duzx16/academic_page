@@ -1,3 +1,6 @@
+**[27/10/23]** We release [ChatGLM3-6B](https://github.com/THUDM/ChatGLM3), with the most powerful base mode under 10 billion parameters, and support for tool using, code interpreter, and agent tasks.
+**[25/06/23]** We release [ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B), with stronger performance, longer context length, more efficient inference and more open license.
+**[14/03/23]** We release [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B), the most popular open bilingual chatbot based on pretrained language model.
 **[23/01/23]** Our paper [GLM-130B: An Open Bilingual Pre-trained Model](/publications/glm-130b) is accepted at ICLR 2023.
 **[04/08/22]** We release [GLM-130B](https://github.com/THUDM/GLM-130B), an open bilingual (English & Chinese) bidirectional dense model with 130 billion parameters, pre-trained using the [General Language Model (GLM)](/publications/glm-21) algorithm.
 **[24/02/22]** Our paper [GLM: General Language Model Pretraining with Autoregressive Blank Infilling](/publications/glm-21) is accepted at ACL 2022.
