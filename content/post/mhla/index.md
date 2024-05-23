@@ -8,10 +8,8 @@ authors:
 - Zhengxiao Du
 tags: []
 categories: [技术]
-date: 2024-02-22T21:26:09+08:00
-lastmod: 2020-02-22T21:26:09+08:00
-featured: false
-draft: false
+date: 2024-05-09T21:26:09+08:00
+lastmod: 2024-05-10T17:55:09+08:00
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -83,7 +81,7 @@ $$
 $$
 O_i=Softmax(\frac{Q_i^TK_i}{\sqrt{d_h}})V_i
 $$
-其中 $W^{DQ}, W^{DKV}\in \mathbb{R}^{d_c\times d}$，$W^{UQ},W^{UK},W^{UV}\in\mathbb{R}^{d_h\times d_c}$
+其中 $W^{DQ}, W^{DKV}\in \mathbb{R}^{d_c\times d}$，$W_i^{UQ},W_i^{UK},W_i^{UV}\in\mathbb{R}^{d_h\times d_c}$
 
 单独看 Attention 计算的前一部分，其中 
 $$
@@ -93,7 +91,7 @@ $$
 $$
 Q_i^TK_i=H^T(W_i^Q)^TW^{DKV}H
 $$
-可以看到这一计算公式和 Multi-Query Attention 其实是一样的，都是使用的单独的 $Q$ 和共享的 $K$。区别在于，这里 $W_i^QH,W^{DKV}H\in\mathbb{R}^{d_c\times l}$。也就是说在进行 attention 计算的时候，向量点积的维度是 $d_c$  而不是 $d$。在论文中实际设置的是 $d_c=4d$。**也就是说 Multi-Head Latent Attention 其实是 head dimension 提高到4倍的 Multi-Query Attention**。在论文中也提到了在 inference 的时候 absorb $W^{UK}$ into $W^{UQ}$，其实就代表了这里的结合方式。因为每个head的维度提高了，所以能够计算出更加复杂的 attention分布，从而相比起 Multi-Query Attention 取得性能提升。相比起直接提高 head dimension，其优点在于 $W^{DQ},W^{UQ},W^{UK}$的参数量是 $d\cdot d_c+d \cdot d_c+ d \cdot d_c=3d\cdot d_c=12d\cdot d_h$，而 $W^Q$ 的参数量是 $d \cdot d_c\cdot n_h=4d^2$，节省了参数量。也就是说对 $W^Q$ 做了一个低秩分解。
+可以看到这一计算公式和 Multi-Query Attention 其实是一样的，都是使用的单独的 $Q$ 和共享的 $K$。区别在于，这里 $W_i^QH,W^{DKV}H\in\mathbb{R}^{d_c\times l}$。也就是说在进行 attention 计算的时候，向量点积的维度是 $d_c$  而不是 $d$。在论文中实际设置的是 $d_c=4d$。**也就是说 Multi-Head Latent Attention 其实是 head dimension 提高到4倍的 Multi-Query Attention**。在论文中也提到了在 inference 的时候 absorb $W^{UK}$ into $W^{UQ}$，其实就代表了这里的结合方式。因为每个head的维度提高了，所以能够计算出更加复杂的 attention分布，从而相比起 Multi-Query Attention 取得性能提升。相比起直接提高 head dimension，其优点在于所有head的 $W^{DQ},W^{UQ},W^{UK}$的总参数量是 $d\cdot d_c+d \cdot d_c+ d \cdot d_c=3d\cdot d_c=12d\cdot d_h$，而所有 head 的 $W^Q$ 的参数量是 $d \cdot d_c\cdot n_h=4d^2$，节省了参数量。也就是说对 $W^Q$ 做了一个低秩分解。
 
 但是这个提升并不是 free lunch，因为 head dimension 提高意味着 attention 的计算量也提高，而 attention 的计算量是 $O(l^2)$ 的。为了处理长文本，现在大家一般都倾向于尽可能降低 attention 计算量的常数，而这个方法是会增加常数的。
 

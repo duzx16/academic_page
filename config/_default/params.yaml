@@ -77,12 +77,7 @@ features:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
+    provider: 'twikoo'
   search:
     provider: wowchemy
     algolia:
