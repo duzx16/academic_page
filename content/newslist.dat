@@ -1,3 +1,4 @@
+**[26/09/24]** Our paper [Understanding Emergent Abilities of Language Models from the Loss Perspective](publications/neurips-24) is accepted at NeurIPS 2024.
 **[05/06/24]** We release [GLM-4-9B](https://github.com/THUDM/GLM-4), with superior performance beyond Llama-3-8B and long context length up to 128K context.
 **[27/10/23]** We release [ChatGLM3-6B](https://github.com/THUDM/ChatGLM3), with the most powerful base mode under 10 billion parameters, and support for tool using, code interpreter, and agent tasks.
 **[25/06/23]** We release [ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B), with stronger performance, longer context length, more efficient inference and more open license.
