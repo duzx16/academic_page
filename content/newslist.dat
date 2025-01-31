@@ -1,9 +1,10 @@
+**[23/01/25]** Our paper [Scaling Speech-Text Pre-training with Synthetic Interleaved Data](publication/iclr-25) is accepted at ICLR 2025.
 **[25/10/24]** We release [GLM-4-Voice](https://github.com/THUDM/GLM-4-Voice), an end-to-end speech chat model that supports both English and Chinese.
-**[26/09/24]** Our paper [Understanding Emergent Abilities of Language Models from the Loss Perspective](publications/neurips-24) is accepted at NeurIPS 2024.
+**[26/09/24]** Our paper [Understanding Emergent Abilities of Language Models from the Loss Perspective](publication/neurips-24) is accepted at NeurIPS 2024.
 **[05/06/24]** We release [GLM-4-9B](https://github.com/THUDM/GLM-4), with superior performance beyond Llama-3-8B and long context length up to 128K context.
 **[27/10/23]** We release [ChatGLM3-6B](https://github.com/THUDM/ChatGLM3), with the most powerful base mode under 10 billion parameters, and support for tool using, code interpreter, and agent tasks.
 **[25/06/23]** We release [ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B), with stronger performance, longer context length, more efficient inference and more open license.
 **[14/03/23]** We release [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B), the most popular open bilingual chatbot based on pretrained language model.
-**[23/01/23]** Our paper [GLM-130B: An Open Bilingual Pre-trained Model](/publications/glm-130b) is accepted at ICLR 2023.
-**[04/08/22]** We release [GLM-130B](https://github.com/THUDM/GLM-130B), an open bilingual (English & Chinese) bidirectional dense model with 130 billion parameters, pre-trained using the [General Language Model (GLM)](/publications/glm-21) algorithm.
-**[24/02/22]** Our paper [GLM: General Language Model Pretraining with Autoregressive Blank Infilling](/publications/glm-21) is accepted at ACL 2022.
+**[23/01/23]** Our paper [GLM-130B: An Open Bilingual Pre-trained Model](/publication/glm-130b) is accepted at ICLR 2023.
+**[04/08/22]** We release [GLM-130B](https://github.com/THUDM/GLM-130B), an open bilingual (English & Chinese) bidirectional dense model with 130 billion parameters, pre-trained using the [General Language Model (GLM)](/publication/glm-21) algorithm.
+**[24/02/22]** Our paper [GLM: General Language Model Pretraining with Autoregressive Blank Infilling](/publication/glm-21) is accepted at ACL 2022.
