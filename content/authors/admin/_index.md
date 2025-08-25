@@ -71,7 +71,7 @@ user_groups:
 - Visitors
 ---
 
-I am a research scientist at Zhipu AI, co-leading the base model group for GLM. I received a PhD in the Department of Computer Science and Technology at Tsinghua University in 2025, advised by Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang).
+I am currently co-leading the base model group for GLM. I received a PhD in the Department of Computer Science and Technology at Tsinghua University in 2025, advised by Prof. [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang).
 
 My research interest lies in various aspects of pretrained language models, especially how to improve their general intelligence[[ACL'21](/publication/glm-21),[ACL'21](/publication/p-tuning-v2),[NeurIPS'24](/publication/neurips-24),[ICLR'25](/publication/iclr-25)]. Generally, I am also interested in the application of machine learning algorithms to real-world systems, including information retrieval [[ECML/PKDD'18](/publication/pkdd-18),[TKDE](/publication/tkde-19),[SIGIR'19](/publication/fair-19)], recommender systems[[KDD'19](/publication/kdd-19)] and knowledge graphs [[TKDE]](/publication/cogkr-19). 
 
